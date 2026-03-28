@@ -1,36 +1,61 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Quicksand", sans-serif;
-  list-style: none;
-  text-decoration: none;
-  scroll-behavior: smooth;
-}
 body {
-  background-image: url(./images/solid-concrete-wall-textured-backdrop_53876-129493.avif);
-  background-repeat: none;
-  background-size: auto;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 20px;
 }
 
-h2,
-h3 {
-  text-transform: uppercase;
+/* CSS Study Section */
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
 }
 
-#main-nav {
-  background-color: rgb(9, 10, 10);
-  color: #020312;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
 }
 
-.content {
-  margin-top: 15px;
-}
-
-.icontools h2 {
+.box {
+  background-color: rgba(0, 123, 255, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
   text-align: center;
-  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
 }
-.icontools img {
-  height: 90px;
+
+.box1{
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
 }
+
+.grid-container-img {
+ border-image-slice:
+33% 33% 33% 33%;
+border-image-width:
+1.5em 1.5em 1.5em 1.5em;
+border-image-outset:
+0px 0px 0px 0px;
+border-image-repeat:
+round round;
+border-image-source:url(images/Untitled\ design\ \(2\).png);
+border-style:
+solid;
+}
+
