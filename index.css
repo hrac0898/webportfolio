@@ -35,20 +35,6 @@ body {
   font-size: 18px;
   font-weight: bold;
 }
-
-.box1{
-  color: white;
-  padding: 20px;
-  border-radius: 5px;
-  text-align: center;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.grid-container-img {
- border-image-slice:
-33% 33% 33% 33%;
-border-image-width:
 1.5em 1.5em 1.5em 1.5em;
 border-image-outset:
 0px 0px 0px 0px;
@@ -57,5 +43,5 @@ round round;
 border-image-source:url(images/Untitled\ design\ \(2\).png);
 border-style:
 solid;
-}
+} */
 
